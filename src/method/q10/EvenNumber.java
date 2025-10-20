@@ -1,5 +1,7 @@
 package method.q10;
 
+import java.util.Arrays;
+
 public class EvenNumber {
 	public static int count(int[] n) {
 		int c = 0;
@@ -22,7 +24,7 @@ public class EvenNumber {
 
 		int cc = count(array);
 
-		System.out.println("[3,2,5,6,7,25,10,51,88,98]" + "には、偶数が" + cc + "個あります。");
+		System.out.println(Arrays.toString(array) + "には、偶数が" + cc + "個あります。");
 
 	}
 }
