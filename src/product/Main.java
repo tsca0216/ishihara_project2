@@ -4,7 +4,6 @@ public class Main {
 	public static void main(String[] args) {
 		ProductsManager manager = new ProductsManager();
 
-		// 商品を5つ追加
 		manager.addProduct(new Product(1, "冷蔵庫", 50000, 10));
 		manager.addProduct(new Product(2, "ソファ", 30000, 5));
 		manager.addProduct(new Product(3, "米", 2000, 3));
