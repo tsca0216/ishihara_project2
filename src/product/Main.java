@@ -26,7 +26,6 @@ public class Main {
 				System.out.println("該当なし。");
 			}
 		}
-		
 
 		scanner.close();
 	}
