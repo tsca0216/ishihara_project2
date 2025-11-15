@@ -12,6 +12,7 @@ public class Product {
 		this.price = price;
 		this.stock = stock;
 	}
+	
 
 	public int getId() {
 		return id;

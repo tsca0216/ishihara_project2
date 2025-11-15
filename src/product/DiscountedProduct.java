@@ -11,6 +11,7 @@ public class DiscountedProduct extends Product {
 	public double getDsicountRate() {
 		return discountRate;
 
+		
 	}
 
 	public double calculateDiscountedPrice() {
