@@ -18,7 +18,7 @@ public class Main {
 		if (discount != null) {
 			System.out.println(discount);
 
-			System.out.println("\\n---商品名「Tシャツ」を検索して表示する---");
+			System.out.println("---商品名「Tシャツ」を検索して表示する---");
 			Product result = manager.getProductByName("Tシャツ");
 			if (result != null) {
 				System.out.println(result);
