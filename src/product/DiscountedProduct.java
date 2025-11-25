@@ -8,7 +8,7 @@ public class DiscountedProduct extends Product {
 		this.discountRate = discountRate;
 	}
 
-	public double getDsicountRate() {
+	public double getDiscountRate() {
 		return discountRate;
 
 	}
